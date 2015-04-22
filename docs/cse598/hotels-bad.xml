@@ -1,0 +1,67 @@
+<hotels>
+	<hotel stars="***">
+		<name>Hyatt</name>
+		<contact>
+			<phonee>4809650000</phonee>
+			<email>hyatt@hyatt.com</email>
+			<address busLines="12,103,245">
+				<number>699</number>
+				<street>Mill Ave</street>
+				<city>Tempe</city>
+				<zip>85281</zip>
+			</address>
+		</contact>
+	</hotel>
+	<hotel stars="****">
+		<name>Hilton</name>
+		<contact>
+			<phone>4809650001</phone>
+			<email>hilton@hilton.com</email>
+			<address>
+				<number>700</number>
+				<street>ABC Ave</street>
+				<city>Tempe</city>
+				<zip>85281</zip>
+			</address>
+		</contact>
+	</hotel>
+	<hotel stars="***">
+		<name>Marriot</name>
+		<contact>
+			<phone>4809650002</phone>
+			<email>marriot@marriot.com</email>
+			<address busLines="12,102">
+				<number>701</number>
+				<street>EFG Ave</street>
+				<city>Tempe</city>
+				<zip>85281</zip>
+			</address>
+		</contact>
+	</hotel>
+	<hotel stars="**">
+		<name>Four Points</name>
+		<contact>
+			<phone>4809650002</phone>
+			<email>4points@4points.com</email>
+			<address busLines="7,69">
+				<number>702</number>
+				<street>XYZ Ave</street>
+				<city>Tempe</city>
+				<zip>85281</zip>
+			</address>
+		</contact>
+	</hotel>
+	<hotel stars="*****">
+		<name>Double Tree</name>
+		<contact>
+			<phone>4809650003</phone>
+			<email>hilton@hilton.com</email>
+			<address>
+				<number>703</number>
+				<street>LMN Ave</street>
+				<city>Tempe</city>
+				<zip>85281</zip>
+			</address>
+		</contact>
+	</hotel>
+</hotels>
