@@ -1,0 +1,71 @@
+body {
+	background-color: #fafafa;
+	height: 100%, auto;
+	width: 100%, auto;
+	padding: 10px;
+	margin: 10px;
+    line-height: 1.4em;
+    overflow: auto;
+    position: absolute;
+    max-width: 640px;
+    color: #323232;
+}
+
+h1 {
+	font-family: 'Ubuntu Mono', monospace;
+	font-style: italic;
+	font-size: 36px;
+}
+
+p {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 18px;
+	word-wrap: break-word;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 18px;
+}
+
+a.gd {
+	color: #149A30;
+}
+
+a.linkedin {
+	color: #186396;
+}
+
+a.generic {
+	color: #E87E04;
+	text-decoration: underline;
+}
+
+footer {
+	color: #8C8C8C;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+footer a {
+	color: #8C8C8C;
+	text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+	body {
+		margin-left: 80px;
+		margin-right: 80px;
+		max-width: none;
+	}
+}
+
+@media (min-width: 700px) {
+    body {
+    	margin-left: 150px;
+    	margin-right: 150px;
+    	max-width: none;
+    }
+}
