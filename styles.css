@@ -68,6 +68,7 @@ a.button {
 	padding: 8px 15px 8px 15px;
 	background-color: #E87E04;
 	border-radius: 3px;
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 a.button:hover {
@@ -76,19 +77,26 @@ a.button:hover {
 
 a.gd {
 	color: #149A30;
+	font-size: 18px;
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 a.linkedin {
 	color: #186396;
+	font-size: 18px;
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 a.generic {
 	color: #E87E04;
 	text-decoration: underline;
+	font-size: 18px;
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 a.generic:hover {
 	color: #e47c04;
+	font-family: 'Ubuntu Mono', monospace;
 }
 
 footer {
