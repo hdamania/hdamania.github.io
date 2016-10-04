@@ -6,24 +6,58 @@ body {
 	margin: 10px;
     line-height: 1.4em;
     overflow: auto;
-    position: absolute;
-    max-width: 640px;
     color: #323232;
 }
 
-h1 {
+h1 a {
 	font-family: 'Ubuntu Mono', monospace;
 	font-style: italic;
 	font-size: 36px;
+	color: #C8C8C8;
+	line-height: 0.8em;
+}
+
+h1 a:hover {
+	color: #8C8C8C;
+}
+
+h2 {
+	font-family: 'Ubuntu Mono', monospace;
+	font-style: italic;
+	font-size: 28px;
+	color: #323232;
+	line-height: 1em;
+}
+
+h3 {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 22px;
+	color: #323232;
+	line-height: 1em;
 }
 
 p {
+	color: #323232;
+	font-family: 'Ubuntu', monospace;
+	font-size: 18px;
+	word-wrap: break-word;
+	margin-top: 8px;
+	line-height: 1.4em;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Ubuntu', monospace;
+	font-size: 18px;
+}
+
+p.home {
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: 18px;
 	word-wrap: break-word;
 }
 
-a {
+a.home {
 	text-decoration: none;
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: 18px;
@@ -65,9 +99,33 @@ footer {
 }
 
 footer a {
+	font-family: 'Ubuntu Mono', monospace;
 	color: #8C8C8C;
 	text-decoration: underline;
 	font-size: 14px;
+}
+
+.postlist {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a.postlist-title {
+	color: #E87E04;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+a.postlist-title:hover {
+	color: #e47c04;
+}
+
+p.postlist-subtitle {
+	color: #323232;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	margin-top: 8px;
 }
 
 @media (min-width: 500px) {

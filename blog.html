@@ -1,0 +1,14 @@
+---
+layout: default
+title: Harsh Damania - Blog
+---
+
+<h2>Blog Posts</h2>
+
+{% for post in site.posts %}
+	<div class="postlist">
+		<a href="{{ post.url }}" class="postlist-title">{{ post.title }}</a>
+		<p class="postlist-subtitle"> {{post.subtitle}} </p>
+	</div>
+
+{% endfor %}

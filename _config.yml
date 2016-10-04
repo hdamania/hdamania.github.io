@@ -15,3 +15,4 @@
 # in the templates via {{ site.myvariable }}.
 title: Harsh Damania
 exclude: ['docs/', 'CNAME']
+permalink: pretty
