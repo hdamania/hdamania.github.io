@@ -16,3 +16,13 @@
 title: Harsh Damania
 exclude: ['docs/', 'CNAME']
 permalink: pretty
+url: harshdamania.me
+
+description: Harsh Damania Personal Site
+icon: me-icon-small.png
+
+author: Harsh Damania
+
+links:
+  linkedin: https://www.linkedin.com/pub/harsh-damania/60/188/82/
+  mailto: mailto:h@harshdamania.me
