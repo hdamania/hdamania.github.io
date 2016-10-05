@@ -149,6 +149,14 @@ p.postlist-subtitle {
 	margin-top: 8px;
 }
 
+p.postlist-date {
+	color: #8C8C8C;
+	margin-top: 0px;
+	margin-bottom: -6px;
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 14px;
+}
+
 @media (min-width: 500px) {
 	body {
 		margin-left: 80px;
