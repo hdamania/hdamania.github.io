@@ -151,7 +151,7 @@ p.postlist-subtitle {
 
 p.postlist-date {
 	color: #8C8C8C;
-	margin-top: 0px;
+	margin-top: -4px;
 	margin-bottom: -6px;
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: 14px;
