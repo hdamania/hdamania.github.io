@@ -14,7 +14,7 @@ body {
 
 h1 a, h2, h3, code, p.home, a.home, a.button, a.gd, a.linkedin,
 a.generic, a.generic:hover, footer, footer.a, a.postlist-title,
-p.postlist-subtitle, p.postlist-date {
+p.postlist-subtitle, p.postlist-date, p.post-date {
 	font-family: "SFMono-Regular", 'Ubuntu Mono', monospace;
 }
 
@@ -154,11 +154,16 @@ p.postlist-subtitle {
 	margin-top: 8px;
 }
 
-p.postlist-date {
+p.postlist-date, p.post-date {
 	color: #8C8C8C;
 	margin-top: -4px;
 	margin-bottom: -6px;
 	font-size: 14px;
+}
+
+p.post-date {
+	margin-top: -20px;
+	margin-bottom: 20px;
 }
 
 blockquote {

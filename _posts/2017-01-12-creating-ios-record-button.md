@@ -6,7 +6,7 @@ subtitle: iOS video and voice memo record button in Swift
 
 Recently, I had to build a record button interaction, similar to the ones used in the iOS Camera app (for videos) and in the Voice Memos app. Having little experience with `CALayer` and friends, I was excited to take on this task.
 
-![Button](/img/button.gif){: .center-image }
+<img src="/img/button.gif" width="220" class="center-image" >
 
 ### Initial Setup
 
@@ -114,6 +114,6 @@ We can now update the button layers for state change in it's target `didPress()`
 
 And voila, we have our record button up and running.
 
-![Button](/img/button.gif){: .center-image }
+<img src="/img/button.gif" width="220" class="center-image" >
 
 You can view the full gist [here](https://gist.github.com/hdamania/af451843e8590794cab3fad9d4a55868).
