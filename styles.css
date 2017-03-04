@@ -1,18 +1,28 @@
 html {
 	background-color: #fafafa;
 }
+
 body {
 	height: 100%, auto;
 	width: 100%, auto;
 	padding: 10px;
 	margin: 10px;
-    line-height: 1.4em;
-    overflow: auto;
-    color: #323232;
+  line-height: 1.4em;
+  overflow: auto;
+  color: #323232;
+}
+
+h1 a, h2, h3, code, p.home, a.home, a.button, a.gd, a.linkedin,
+a.generic, a.generic:hover, footer, footer.a, a.postlist-title,
+p.postlist-subtitle, p.postlist-date {
+	font-family: "SFMono-Regular", 'Ubuntu Mono', monospace;
+}
+
+p, ul, li {
+	font-family: 'Inconsolata', sans-serif;
 }
 
 h1 a {
-	font-family: 'Ubuntu Mono', monospace;
 	font-style: italic;
 	font-size: 36px;
 	color: #C8C8C8;
@@ -24,7 +34,6 @@ h1 a:hover {
 }
 
 h2 {
-	font-family: 'Ubuntu Mono', monospace;
 	font-style: italic;
 	font-size: 28px;
 	color: #323232;
@@ -32,7 +41,6 @@ h2 {
 }
 
 h3 {
-	font-family: 'Ubuntu Mono', monospace;
 	font-size: 23px;
 	color: #323232;
 	line-height: 1em;
@@ -40,12 +48,11 @@ h3 {
 
 p, ul, li {
 	color: #323232;
-	font-family: 'Ubuntu', monospace;
 	font-size: 16px;
 	word-wrap: break-word;
 	margin-top: 8px;
-	line-height: 1.6em;
-	letter-spacing: 0.2px;
+	line-height: 1.375em;
+	letter-spacing: 0.15px;
 }
 
 code {
@@ -54,7 +61,6 @@ code {
 	color: #323232;
 	font-size: 15px;
 	border-radius: 4px;
-	font-family: 'Ubuntu Mono', monospace;
 }
 
 h3 code {
@@ -63,13 +69,11 @@ h3 code {
 
 a {
 	text-decoration: none;
-	font-family: 'Ubuntu', monospace;
 	font-size: 16px;
 	color: #E87E04;
 }
 
 p.home {
-	font-family: 'Ubuntu Mono', monospace;
 	font-size: 18px;
 	word-wrap: break-word;
 	line-height: 1.4em;
@@ -77,7 +81,6 @@ p.home {
 
 a.home {
 	text-decoration: none;
-	font-family: 'Ubuntu Mono', monospace;
 	font-size: 18px;
 }
 
@@ -86,7 +89,6 @@ a.button {
 	padding: 8px 15px 8px 15px;
 	background-color: #E87E04;
 	border-radius: 3px;
-	font-family: 'Ubuntu Mono', monospace;
 }
 
 a.button:hover {
@@ -96,39 +98,39 @@ a.button:hover {
 a.gd {
 	color: #149A30;
 	font-size: 18px;
-	font-family: 'Ubuntu Mono', monospace;
 }
 
 a.linkedin {
 	color: #186396;
 	font-size: 18px;
-	font-family: 'Ubuntu Mono', monospace;
 }
 
 a.generic {
 	color: #E87E04;
 	text-decoration: underline;
 	font-size: 18px;
-	font-family: 'Ubuntu Mono', monospace;
 }
 
 a.generic:hover {
 	color: #e47c04;
-	font-family: 'Ubuntu Mono', monospace;
+}
+
+footer, footer a, footer p {
+	color: #8C8C8C;
+	font-size: 14px;
 }
 
 footer {
-	color: #8C8C8C;
-	font-family: 'Ubuntu Mono', monospace;
-	font-size: 14px;
 	padding-top: 20px;
 }
 
 footer a {
-	font-family: 'Ubuntu Mono', monospace;
-	color: #8C8C8C;
 	text-decoration: underline;
 	font-size: 14px;
+}
+
+footer p {
+	margin: 0px;
 }
 
 .postlist {
@@ -138,7 +140,6 @@ footer a {
 
 a.postlist-title {
 	color: #E87E04;
-	font-family: 'Ubuntu Mono', monospace;
 	font-size: 22px;
 	font-weight: bold;
 }
@@ -149,7 +150,6 @@ a.postlist-title:hover {
 
 p.postlist-subtitle {
 	color: #323232;
-	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 	margin-top: 8px;
 }
@@ -158,7 +158,6 @@ p.postlist-date {
 	color: #8C8C8C;
 	margin-top: -4px;
 	margin-bottom: -6px;
-	font-family: 'Ubuntu Mono', monospace;
 	font-size: 14px;
 }
 
@@ -186,9 +185,15 @@ blockquote {
     }
 }
 
-pre { 
-	white-space: pre; 
-	overflow: auto; 
+pre {
+	white-space: pre;
+	overflow: auto;
+}
+
+.center-image {
+	margin: 0 auto;
+	display: block;
+	max-width: 60%;
 }
 
 /*
