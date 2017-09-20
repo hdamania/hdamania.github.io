@@ -12,7 +12,7 @@ body {
   color: #323232;
 }
 
-h1 a, h2, h3, code, p.home, a.home, a.button, a.gd, a.linkedin,
+h1 a, h2, h3, code, p.home, a.home, a.button, a.wa, a.linkedin,
 a.generic, a.generic:hover, footer, footer.a, a.postlist-title,
 p.postlist-subtitle, p.postlist-date, p.post-date {
 	font-family: "SFMono-Regular", 'Ubuntu Mono', monospace;
@@ -74,14 +74,12 @@ a {
 }
 
 p.home {
-	font-size: 18px;
 	word-wrap: break-word;
 	line-height: 1.4em;
 }
 
 a.home {
 	text-decoration: none;
-	font-size: 18px;
 }
 
 a.button {
@@ -95,20 +93,21 @@ a.button:hover {
 	background-color: #e47c04;
 }
 
-a.gd {
-	color: #149A30;
-	font-size: 18px;
+a.wa, a.linkedin, a.generic, a.home, p.home {
+	font-size: 16px;
+}
+
+a.wa {
+	color: #25D366;
 }
 
 a.linkedin {
 	color: #186396;
-	font-size: 18px;
 }
 
 a.generic {
 	color: #E87E04;
 	text-decoration: underline;
-	font-size: 18px;
 }
 
 a.generic:hover {
