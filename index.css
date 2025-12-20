@@ -92,15 +92,16 @@ h6 {
 
 h1 {
     font-size: 34px;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.02em;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 16px;
     font-family: var(--monospace-font-family);
     font-weight: normal;
     text-transform: uppercase;
     color: var(--text-color-muted);
+    margin-top: 1.5em;
 }
 
 em,
