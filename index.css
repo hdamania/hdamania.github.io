@@ -46,7 +46,7 @@ body {
     background-color: var(--page-color);
     color: var(--text-color-body);
     font-family: var(--body-font-family);
-    font-size: 15px;
+    font-size: 16px;
     line-height: var(--body-line-height);
 }
 
@@ -131,7 +131,7 @@ p {
 }
 
 main>p:first-of-type {
-    font-size: clamp(1.1rem, 4vw, 21px);
+    font-size: clamp(1.1rem, 4vw, 18px);
 }
 
 dt {
