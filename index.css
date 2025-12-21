@@ -192,3 +192,35 @@ hr {
     border: none;
     border-top: 1px solid var(--border-color);
 } 
+
+/* Map container */
+.map-container {
+    width: 100%;
+}
+
+/* SVG map styles */
+.world-map {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.world-map .circle-land {
+    fill: var(--text-color-muted);
+}
+
+.world-map .circle-water {
+    fill: var(--page-color);
+}
+
+.world-map .circle-stay {
+    fill: rgb(196, 86, 47);
+}
+
+.world-map .circle-visit {
+    fill: rgb(196, 186, 47);
+}
+
+.world-map .circle-current {
+    fill: rgb(255, 10, 10);
+}
