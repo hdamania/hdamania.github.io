@@ -76,6 +76,59 @@ footer {
     color: var(--text-color-muted);
 }
 
+.section-note {
+    margin-top: 0.75rem;
+    font-size: 14px;
+    font-family: var(--body-font-family);
+    color: var(--text-color-muted);
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 88px);
+    gap: 14px 12px;
+    max-width: 588px;
+    align-items: start;
+}
+
+.app-grid>a,
+.app-grid>.app-item {
+    display: grid;
+    justify-items: center;
+    gap: 0.35rem;
+    width: 88px;
+    color: var(--text-color-muted);
+    text-align: center;
+    text-decoration: none;
+    transition: color 150ms ease;
+}
+
+.app-grid img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 22.5%;
+    clip-path: inset(0 round 22.5%);
+    background: #fff;
+}
+
+.app-grid span {
+    font-size: 14px;
+    font-family: var(--body-font-family);
+    line-height: 1.1;
+    text-wrap: balance;
+    transition: color 150ms ease;
+}
+
+.app-grid a:hover span {
+    color: var(--text-color-body);
+}
+
+.app-grid a:focus-visible span,
+.app-grid>.app-item:hover span {
+    color: var(--text-color-body);
+}
+
 h1,
 h2,
 h3,
